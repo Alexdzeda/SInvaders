@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E17F969316D680C50000FD8B /* pausedBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = E17F969216D680C50000FD8B /* pausedBackground.png */; };
 		E1A0216216D127CD00E2AAA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A0216116D127CD00E2AAA4 /* UIKit.framework */; };
 		E1A0216416D127CD00E2AAA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A0216316D127CD00E2AAA4 /* Foundation.framework */; };
 		E1A0216616D127CD00E2AAA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A0216516D127CD00E2AAA4 /* CoreGraphics.framework */; };
@@ -23,6 +24,17 @@
 		E1A0218816D127CD00E2AAA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A0216316D127CD00E2AAA4 /* Foundation.framework */; };
 		E1A0219016D127CD00E2AAA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1A0218E16D127CD00E2AAA4 /* InfoPlist.strings */; };
 		E1A0219316D127CD00E2AAA4 /* Space_InvadersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A0219216D127CD00E2AAA4 /* Space_InvadersTests.m */; };
+		E1A0219E16D12A2400E2AAA4 /* MovableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A0219D16D12A2400E2AAA4 /* MovableObject.m */; };
+		E1A021A216D12AA500E2AAA4 /* blockHitOne.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A0219F16D12AA500E2AAA4 /* blockHitOne.png */; };
+		E1A021A316D12AA500E2AAA4 /* blockHitTwo.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A021A016D12AA500E2AAA4 /* blockHitTwo.png */; };
+		E1A021A416D12AA500E2AAA4 /* fireButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A021A116D12AA500E2AAA4 /* fireButton.png */; };
+		E1A021AB16D12AC300E2AAA4 /* Explode.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A021A516D12AC300E2AAA4 /* Explode.png */; };
+		E1A021AC16D12AC300E2AAA4 /* fullblockHR.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A021A616D12AC300E2AAA4 /* fullblockHR.png */; };
+		E1A021AD16D12AC300E2AAA4 /* aliensHD.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A021A716D12AC300E2AAA4 /* aliensHD.png */; };
+		E1A021AE16D12AC300E2AAA4 /* alienLaserFire.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A021A816D12AC300E2AAA4 /* alienLaserFire.png */; };
+		E1A021AF16D12AC300E2AAA4 /* shipLaser.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A021A916D12AC300E2AAA4 /* shipLaser.png */; };
+		E1A021B016D12AC300E2AAA4 /* spaceship2.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A021AA16D12AC300E2AAA4 /* spaceship2.png */; };
+		E1A021B216D12B7100E2AAA4 /* galaxyBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A021B116D12B7100E2AAA4 /* galaxyBackground.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E17F969216D680C50000FD8B /* pausedBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pausedBackground.png; path = ../../pausedBackground.png; sourceTree = "<group>"; };
 		E1A0215E16D127CC00E2AAA4 /* Space Invaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Invaders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A0216116D127CD00E2AAA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E1A0216316D127CD00E2AAA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +71,18 @@
 		E1A0218F16D127CD00E2AAA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E1A0219116D127CD00E2AAA4 /* Space_InvadersTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Space_InvadersTests.h; sourceTree = "<group>"; };
 		E1A0219216D127CD00E2AAA4 /* Space_InvadersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_InvadersTests.m; sourceTree = "<group>"; };
+		E1A0219C16D12A1F00E2AAA4 /* MovableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovableObject.h; path = ../../TheSpaceInvadersStevenAndAlex/TheSpaceInvadersStevenAndAlex/MovableObject.h; sourceTree = "<group>"; };
+		E1A0219D16D12A2400E2AAA4 /* MovableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MovableObject.m; path = ../../TheSpaceInvadersStevenAndAlex/TheSpaceInvadersStevenAndAlex/MovableObject.m; sourceTree = "<group>"; };
+		E1A0219F16D12AA500E2AAA4 /* blockHitOne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blockHitOne.png; path = ../../blockHitOne.png; sourceTree = "<group>"; };
+		E1A021A016D12AA500E2AAA4 /* blockHitTwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blockHitTwo.png; path = ../../blockHitTwo.png; sourceTree = "<group>"; };
+		E1A021A116D12AA500E2AAA4 /* fireButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fireButton.png; path = ../../TheSpaceInvadersStevenAndAlex/TheSpaceInvadersStevenAndAlex/fireButton.png; sourceTree = "<group>"; };
+		E1A021A516D12AC300E2AAA4 /* Explode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Explode.png; path = ../../TheSpaceInvadersStevenAndAlex/TheSpaceInvadersStevenAndAlex/Explode.png; sourceTree = "<group>"; };
+		E1A021A616D12AC300E2AAA4 /* fullblockHR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fullblockHR.png; path = ../../fullblockHR.png; sourceTree = "<group>"; };
+		E1A021A716D12AC300E2AAA4 /* aliensHD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aliensHD.png; path = ../../aliensHD.png; sourceTree = "<group>"; };
+		E1A021A816D12AC300E2AAA4 /* alienLaserFire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alienLaserFire.png; path = ../../alienLaserFire.png; sourceTree = "<group>"; };
+		E1A021A916D12AC300E2AAA4 /* shipLaser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shipLaser.png; path = ../../shipLaser.png; sourceTree = "<group>"; };
+		E1A021AA16D12AC300E2AAA4 /* spaceship2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spaceship2.png; path = ../../TheSpaceInvadersStevenAndAlex/TheSpaceInvadersStevenAndAlex/spaceship2.png; sourceTree = "<group>"; };
+		E1A021B116D12B7100E2AAA4 /* galaxyBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = galaxyBackground.png; path = ../../galaxyBackground.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +144,8 @@
 			children = (
 				E1A0217016D127CD00E2AAA4 /* AppDelegate.h */,
 				E1A0217116D127CD00E2AAA4 /* AppDelegate.m */,
+				E1A0219D16D12A2400E2AAA4 /* MovableObject.m */,
+				E1A0219C16D12A1F00E2AAA4 /* MovableObject.h */,
 				E1A0217916D127CD00E2AAA4 /* ViewController.h */,
 				E1A0217A16D127CD00E2AAA4 /* ViewController.m */,
 				E1A0217C16D127CD00E2AAA4 /* ViewController.xib */,
@@ -130,6 +157,17 @@
 		E1A0216816D127CD00E2AAA4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E1A021B116D12B7100E2AAA4 /* galaxyBackground.png */,
+				E1A021A516D12AC300E2AAA4 /* Explode.png */,
+				E1A021A616D12AC300E2AAA4 /* fullblockHR.png */,
+				E1A021A716D12AC300E2AAA4 /* aliensHD.png */,
+				E1A021A816D12AC300E2AAA4 /* alienLaserFire.png */,
+				E1A021A916D12AC300E2AAA4 /* shipLaser.png */,
+				E1A021AA16D12AC300E2AAA4 /* spaceship2.png */,
+				E1A0219F16D12AA500E2AAA4 /* blockHitOne.png */,
+				E1A021A016D12AA500E2AAA4 /* blockHitTwo.png */,
+				E1A021A116D12AA500E2AAA4 /* fireButton.png */,
+				E17F969216D680C50000FD8B /* pausedBackground.png */,
 				E1A0216916D127CD00E2AAA4 /* Space Invaders-Info.plist */,
 				E1A0216A16D127CD00E2AAA4 /* InfoPlist.strings */,
 				E1A0216D16D127CD00E2AAA4 /* main.m */,
@@ -236,6 +274,17 @@
 				E1A0217616D127CD00E2AAA4 /* Default@2x.png in Resources */,
 				E1A0217816D127CD00E2AAA4 /* Default-568h@2x.png in Resources */,
 				E1A0217E16D127CD00E2AAA4 /* ViewController.xib in Resources */,
+				E1A021A216D12AA500E2AAA4 /* blockHitOne.png in Resources */,
+				E1A021A316D12AA500E2AAA4 /* blockHitTwo.png in Resources */,
+				E1A021A416D12AA500E2AAA4 /* fireButton.png in Resources */,
+				E1A021AB16D12AC300E2AAA4 /* Explode.png in Resources */,
+				E1A021AC16D12AC300E2AAA4 /* fullblockHR.png in Resources */,
+				E1A021AD16D12AC300E2AAA4 /* aliensHD.png in Resources */,
+				E1A021AE16D12AC300E2AAA4 /* alienLaserFire.png in Resources */,
+				E1A021AF16D12AC300E2AAA4 /* shipLaser.png in Resources */,
+				E1A021B016D12AC300E2AAA4 /* spaceship2.png in Resources */,
+				E1A021B216D12B7100E2AAA4 /* galaxyBackground.png in Resources */,
+				E17F969316D680C50000FD8B /* pausedBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +322,7 @@
 				E1A0216E16D127CD00E2AAA4 /* main.m in Sources */,
 				E1A0217216D127CD00E2AAA4 /* AppDelegate.m in Sources */,
 				E1A0217B16D127CD00E2AAA4 /* ViewController.m in Sources */,
+				E1A0219E16D12A2400E2AAA4 /* MovableObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +505,7 @@
 				E1A0219816D127CD00E2AAA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1A0219916D127CD00E2AAA4 /* Build configuration list for PBXNativeTarget "Space InvadersTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +514,7 @@
 				E1A0219B16D127CD00E2AAA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
